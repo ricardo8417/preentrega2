@@ -69,7 +69,7 @@ const agregarArticulos = (listaStock) => {
         agregarProducto = confirm('¿Desea dar de alta otro producto?')
     } while (agregarProducto);
     return totalProductoAlta
-
+    menuInventario()
 };
 
 
